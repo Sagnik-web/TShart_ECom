@@ -1,0 +1,208 @@
+.dress_details, .dress_reviews{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.dress_details_first{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dress_details_img{
+    display: flex;
+    /* flex:1; */
+}
+.dress_details_img_small{
+    margin-right: 25px;
+}
+.dress_details_img_small > div{
+    width: 80px;
+    margin-top: 20px;
+}
+.dress_details_img_small > div>img{
+    width: 80px;
+    height: auto;
+}
+.dress_details_img_big{
+    width: 700px;
+    height: auto;
+    flex:1
+}
+.dress_details_img_big > img{
+    width: 700px;
+    height: auto;
+}
+
+
+
+
+.dress_details_details{
+    /* flex:1; */
+    /* margin-top: 15px; */
+    margin-left: 35px;
+}
+.dress_details_details_color{
+    margin: 15px 0;
+}
+.dress_details_details_color>p{
+    margin: 30px 10px;
+}
+.dress_details_details_color > p> span{
+    padding: 20px 30px;
+    border-radius: 50px;
+    background-color: #6e0000;
+    
+}
+
+.dress_details_details h2,.dress_details_details h4,.dress_details_details h3,.dress_details_details >p{
+    margin-top: 5px;
+}
+
+.dress_details_details_size{
+    margin-top: 35px ;
+}
+.dress_details_details_size >h4{
+    display: flex;
+    justify-content: space-between;
+}
+.dress_details_details_size_guide{
+    cursor: pointer;
+    color: #4d4d4d;
+}
+.dress_details_details_size_guide:hover{
+    color: #000;
+}
+.dress_details_details_size_guide_type{
+    margin: 20px 10px;
+}
+.dress_details_details_size_guide_type >span{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px Solid black;
+    margin-right: 7px;
+}
+.dress_details_details_size_cart{
+    margin: 10px;
+    margin-top: 30px;
+    /* margin-bottom: 15px; */
+    padding: 7px 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+}
+
+
+.dress_details_details_pin{
+    margin: 20px 10px;
+}
+.dress_details_details_pin>p,.dress_details_details_pin>div{
+    margin-top: 5px;
+}
+.dress_details_details_pin>div>input{
+    padding: 7px 14px;
+}
+.dress_details_details_pin>div>span{
+    padding: 7px 14px;
+    background-color: #035fb6;
+    border-radius: 5px;
+    /* margin-top:  15px; */
+    color: #ffffff93;
+    cursor: pointer;
+    margin-left: 7px;
+}
+.dress_details_details_pin>div>span:hover{
+    color: #fff;
+}
+
+
+
+
+.dress_reviews_card{
+    max-width: 700px;
+}
+.rate {
+    /* float: left; */
+    display: inline-block;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+.dress_reviews_card >p >textarea{
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    /* border: none; */
+}
+
+.review_submit_btn >p{
+    display: inline-block;
+    padding: 7px 14px;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-left: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.review_like img{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+.review_like{
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+
+.review_start{
+margin: 7px 5px;
+}
+
+
+.review_start >img {
+    width: 30px;
+}
+
+.dress_reviews_card_details >p{
+    margin: 3px 10px;
+}
+.dress_reviews_card_details{
+    background-color: #d4d4d4;
+    padding: 7px 10px;
+    margin-top: 7px;
+}

@@ -1,0 +1,45 @@
+.manager_account{
+    /* max-width: ; */
+    display: flex;
+    justify-content: center;
+}
+
+.create_manager{
+    display: inline-block;
+    padding: 40px 50px;
+    min-width: 400px;
+    background-color: blanchedalmond;
+    border-radius: 7px;
+    
+    margin-top: 5rem;
+}
+
+.create_manager > p{
+    margin-top: 10px;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create_manager > p >span >input{
+    padding: 7px 12px;
+}
+
+.create_manager > h2{
+    margin-bottom: 25px;
+}
+
+.create_manager >div{
+    margin-top: 20px;
+    text-align: end;
+}
+
+.create_manager >div >p{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: brown;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.admin_fdress > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.admin_fdress > div > div{
+    display: flex;
+    align-items: center;
+
+}
+
+.admin_fdress > div{
+    border: 1.5px solid black;
+    padding: 10px 20px;
+    margin:  35px 40px;
+}
+
+.admin_fdress > div > div >p, .admin_fdress > div > div >div{
+    margin-right: 15px;
+
+}
+
+.admin_fdress > div > div >div >p{
+    margin-bottom: 5px;
+}
+
+.admin_fdress_card_btn > p{
+    padding: 10px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.admin_fdress_card_btn_edit{
+    background-color: rgb(0, 98, 190);
+
+}
+.admin_fdress_card_btn_approve{
+    background-color: #058800;
+}
+.admin_fdress_card_btn_block{
+    background-color: rgb(114, 0, 0);
+}

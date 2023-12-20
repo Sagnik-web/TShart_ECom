@@ -1,0 +1,52 @@
+
+.filter >div{
+    position: sticky;
+  top: 84px;
+  /* background-color: yellow; */
+  max-height: 750px;
+  /* padding: 50px; */
+  /* font-size: 20px; */
+  overflow-y: scroll;
+    padding: 20px ;
+    width: 260px;
+    margin-right: 30px;
+}
+
+.filter >div>div>hr{
+    /* width: 170px;
+    text-align: center; */
+    margin-top: 17px;
+}
+.filter >div>div>h2{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+    cursor: pointer;
+
+}
+
+.filter >div>div>p{
+    margin: 3px 5px;
+    padding: 5px 10px;
+    color: #696969;
+}
+
+.filter >div>div>p:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+
+.filter >div::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+  }
+  
+.filter >div::-webkit-scrollbar-track {
+    background: orange;        /* color of the tracking area */
+  }
+
+.filter > div ::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid orange;  /* creates padding around scroll thumb */
+  }

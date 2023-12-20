@@ -1,0 +1,38 @@
+
+.admin_user_details{
+    margin: 30px;
+}
+
+.admin_user_details > div > p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.admin_user_details > div > p > span{
+    margin-right: 10px;
+}
+
+.admin_user_details > div > div >h4{
+    margin-top: 15px;
+}
+
+.admin_user_details_likes > div > p{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.admin_user_details_product > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+
+

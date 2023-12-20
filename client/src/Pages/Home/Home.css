@@ -1,0 +1,294 @@
+.home{
+    /* margin-top: 80px; */
+}
+
+
+.home_img_col{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.home_img{
+    position: absolute;
+    z-index: -10;
+}
+.home_img_col > img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+
+.home_img_msg{
+    background-color: rgba(0, 0, 0, 0.3);
+    color:var(--color-white);
+    height: 700px;
+    text-align: center;
+}
+
+.home_img_msg >div{
+    position: absolute;
+    top:48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.home_img_msg >div >h2{
+    font-size: 4rem;
+
+}
+
+.home_img_msg >div >p{
+    font-size: 1.6rem;
+}
+
+.home_msg{
+    margin: 7rem 0;
+}
+
+.home_msg h3{
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+
+
+
+.home_cart_rapper{
+    margin: auto;
+    max-width: 1400px;
+    
+
+}
+.home_cart_rapper > div{
+    margin: 0 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home_cart_img{
+    border: 2px solid black;
+    /* display: inline-block; */
+}
+.home_cart_img >img{
+    width: 319px;
+    height: 319px;
+}
+.home_cart> h4{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.home_cart{
+    margin-bottom: 2.5rem;
+}
+
+
+
+
+
+.home_second_img_rapper{
+    /* max-width: 1400px;
+    margin: auto; */
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    /* position: absolute; */
+}
+.home_second_img{
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+}
+.home_second_img >img{
+    width: 100% ;
+    height: 700px;
+    object-fit: cover;
+}
+.home_second_img_text{
+    /* position: absolute; */
+    background-color: rgba(0, 0, 0, 0.301);
+    color: #fff;
+    height: 700px;
+    /* z-index: 10; */
+
+    /* max-width: 1400px; */
+
+}
+
+.home_second_img_text > div{
+   text-align: center;
+   padding-top: 300px;
+   font-size: 3.2rem;
+   /* margin-top: 300px; */
+}
+
+
+
+.home_trend_cart_rapper{
+    margin: auto;
+    max-width: 1400px;
+   
+    /* text-align: center; */
+}
+.home_trend_cart_rapper > div{
+    margin: 0 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home_trend_cart_img{
+    border: 2px solid black;
+    /* display: inline-block; */
+}
+.home_trend_cart_img >img{
+    width: 319px;
+    height: 519px;
+}
+.home_trend_cart> h4{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.home_trend_cart{
+    margin-bottom: 2.7rem;
+}
+
+
+
+
+.home_third_img_rapper{
+    /* max-width: 1400px;
+    margin: auto; */
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    /* position: absolute; */
+}
+.home_third_img{
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+}
+.home_third_img >img{
+    width: 100% ;
+    height: 700px;
+    object-fit: cover;
+}
+.home_third_img_text{
+    /* position: absolute; */
+    background-color: rgba(0, 0, 0, 0.301);
+    color: #fff;
+    height: 700px;
+    /* z-index: 10; */
+
+    /* max-width: 1400px; */
+
+}
+
+.home_third_img_text > div{
+   text-align: center;
+   padding-top: 300px;
+   font-size: 3.2rem;
+   /* margin-top: 300px; */
+}
+
+
+
+
+
+
+
+
+
+.home_faq{
+
+    max-width: 700px;
+    margin: auto;
+
+    margin-bottom: 7rem;
+}
+
+.home_faq > h2, .home_faq >p{
+    text-align: center;
+
+}
+
+.fst_home_faq >div{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 7px 15px;
+    margin-top: 15px;
+}
+
+
+.fst_home_faq > p{
+    margin: 10px;
+    margin-left: 15px;
+}
+
+
+.home_shop_all_btn{
+    text-align: center;
+}
+.home_shop_all_btn >p{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 700;
+    background-color: var(--secondary-color);
+    color: var(--color-white);
+    margin: 2.2rem;
+}
+
+
+
+.home_buttom_img_msg{
+    max-width: 1400px;
+    margin: auto;
+    
+    display: flex;
+    margin-bottom: 7rem;
+}
+
+
+.home_buttom_img_msg > div{
+    flex:1
+}
+
+.home_buttom_img_msg > div> img{
+    width: 100%;
+    height: auto;
+}
+
+.home_buttom_img_textmsg{
+    text-align: center;
+    margin-top: 10%;
+    
+}
+.home_buttom_img_textmsg >h2{
+    font-size: 4.2rem;
+}
+
+
+
+
+.home_insta{
+    max-width: 1400px;
+    margin: auto;
+    margin-bottom: 7rem;
+}
+
+.home_insta > div>h2{
+    font-size: 2.7rem;
+    text-align: center;
+    margin-bottom: 2.3rem;
+}
+
+.home_insta_img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.home_insta_img >div >img{
+    width: 319px;
+    height: 400px;
+    object-fit: cover;
+}

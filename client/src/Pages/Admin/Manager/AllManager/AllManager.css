@@ -1,0 +1,45 @@
+.admin_manager > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.admin_manager > div > div{
+    display: flex;
+    align-items: center;
+
+}
+
+.admin_manager > div{
+    border: 1.5px solid black;
+    padding: 10px 20px;
+    margin:  35px 40px;
+}
+
+.admin_manager > div > div >p, .admin_manager > div > div >div{
+    margin-right: 15px;
+
+}
+
+.admin_manager > div > div >div >p{
+    margin-bottom: 5px;
+}
+
+.admin_manager_card_btn > p{
+    padding: 10px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.admin_manager_card_btn_edit{
+    background-color: rgb(0, 98, 190);
+
+}
+.admin_manager_card_btn_approve{
+    background-color: #058800;
+}
+.admin_manager_card_btn_block{
+    background-color: rgb(114, 0, 0);
+}

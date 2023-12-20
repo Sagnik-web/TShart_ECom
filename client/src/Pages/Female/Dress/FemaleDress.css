@@ -1,0 +1,104 @@
+.female_dress_category{
+    position: fixed;
+    z-index: 5;
+    background-color: #00000096;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+
+}
+
+.female_dress_category>div{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.female_dress_category_card>div>img, .female_dress_category_card>div
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.female_dress_category_card >p {
+    text-align: center;
+    margin-top: 14px;
+}
+.female_dress_category_card{
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.femaleDress_banner > div{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: -10;
+}
+.femaleDress_banner > div > img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.femaleDress_banner{
+    width: 100%;
+    height: 500px;
+    background-color: #0000002a;
+    
+}
+.femaleDress_banner > div > h3{
+    font-size: 3.7rem;
+    text-align: center;
+    margin-top: 12rem;
+    color: var(--color-white);
+}
+
+
+
+.femaleDress_content{
+    max-width: 1400px;
+    margin: auto;
+    margin-top:4rem ;
+    margin-bottom: 4rem;
+}
+
+.femaleDress_filter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2.5rem;
+}
+
+
+
+.femaleDress_card_rapper{
+    margin: 1.5rem 2.5rem;
+    display: flex;
+    /* align-items: start; */
+}
+.femaleDress_card_rapper_second{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+
+

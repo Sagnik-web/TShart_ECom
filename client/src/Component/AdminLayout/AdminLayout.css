@@ -1,0 +1,87 @@
+.admin_layout{
+    
+}
+
+.admin_navber, .admin_sideber{
+    background-color: var(--primary-color);
+    color: #fff;
+    /* position: fixed; */
+
+}
+
+.admin_navber{
+    width: 100vw;
+    border-bottom: 2px solid rgb(134, 132, 132);
+}
+
+.admin_sideber{
+    width: 270px;
+    min-height: 90vh;
+    
+    /* margin-top: 100px; */
+}
+
+.admin_navber >div{
+    max-width: 1400px;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.sidebar_body{
+    display: flex;
+}
+
+.admin_navber_col1{
+    display:flex;
+    align-items: center;
+
+}
+
+.admin_navber_col1 > p > span{
+    margin-right: 12px;
+}
+
+
+.admin_sideber > div{
+    /* position: sticky;
+    display: inline-block; */
+
+
+    /* margin-left: 30px; */
+    margin-top: 40px;
+    background-color: #440000;
+
+    padding: 25px 0;
+}
+
+.admin_sideber > div > div{
+    margin-bottom: 15px;
+}
+
+.admin_sideber > div > div > h3{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 17px;
+     cursor: pointer;
+
+}
+
+.body{
+    /* display: inline-block; */
+    flex: 1;
+}
+
+.admin_sideber > div > div > p{
+    padding: 7px 35px;
+    /* padding-bottom: 5px; */
+    cursor: pointer;
+
+}
+
+
+.admin_sideber > div > div > p:hover{
+    background-color: #550101;
+}
+
+
+

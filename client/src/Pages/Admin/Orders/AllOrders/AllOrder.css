@@ -1,0 +1,66 @@
+.admin_all_order{
+    margin: 20px;
+
+}
+
+.admin_all_order > h3, .admin_all_order > div >h3{
+    text-align: center;
+}
+
+.admin_all_order_tab{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.admin_all_order_tab > h4 {
+    flex: 1;
+    text-align: center;
+    background-color: #700000;
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    /* display: block; */
+    /* margin-left: 30px; */
+}
+
+.admin_all_order > div >div{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+
+.admin_all_order > div > div > div{
+    display: flex;
+    /* justify-content:  space-between;
+    margin: ; */
+}
+
+.admin_all_order > div > div > div > p{
+    padding: 7px 17px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.admin_all_order_btn_view{
+    background-color: #005ac2;
+}
+
+.admin_all_order_btn_shipping{
+    background-color: #01771b;
+
+}
+
+.admin_all_order_btn_reject{
+    background-color: #700000;
+
+}

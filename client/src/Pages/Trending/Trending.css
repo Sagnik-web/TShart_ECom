@@ -1,0 +1,94 @@
+.popup_gender {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: var(--color-white);
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    position:absolute;
+
+}
+
+.popup_gender > div{
+    position:absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--primary-color);
+    padding: 3.2rem 6rem;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.popup_gender > div>P{
+font-size: 2.7rem;
+margin-bottom: 2.3rem;
+
+}
+
+.popup_gender > div > div > span{
+    font-size: 1.5rem;
+    margin-right: 1.6rem;
+    cursor: pointer;
+    color: #ffffff75;
+}
+
+.popup_gender > div > div > span:hover{
+    color: var(--color-white);
+}
+
+
+
+
+
+
+
+
+.trending_banner > div{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: -10;
+}
+.trending_banner > div > img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.trending_banner{
+    width: 100%;
+    height: 500px;
+    background-color: #0000002a;
+    
+}
+.trending_banner > div > h3{
+    font-size: 3.7rem;
+    text-align: center;
+    margin-top: 12rem;
+    color: var(--color-white);
+}
+
+
+
+.trending_content{
+    max-width: 1400px;
+    margin: auto;
+    margin-top:4rem ;
+    margin-bottom: 4rem;
+}
+
+.trending_filter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2.5rem;
+}
+
+
+
+.trending_card_rapper{
+    margin: 1.5rem 2.5rem;
+}
+.trending_card_rapper > div{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}

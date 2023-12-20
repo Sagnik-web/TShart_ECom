@@ -1,0 +1,43 @@
+.trending_card{
+    margin-bottom: 3.7rem;
+    flex: 1;
+    /* margin-right: 0.6rem;
+    margin-left: 0.6rem; */
+
+}
+.trending_card_img{
+    width: 310px;
+    height: 310px;
+}
+.trending_card_img >img{
+    width: 310px;
+    height: 310px;
+
+}
+.trending_card_details{
+    margin-left: 7px;
+}
+.trending_card_details > p{
+    font-size: 1rem;
+    /* margin-top: 5px; */
+}
+.trending_card_details > h2{
+    font-size: 1.2rem;
+    margin-top: 4px;
+    font-weight: 700;
+}
+
+.trending_card_cart{
+    width: 290px;
+    background-color: var(--primary-color);
+    color: #ffffff7e;
+    border-radius: 50px;
+    margin-left: 7px;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.trending_card_cart:hover{
+    color: var(--color-white);
+}

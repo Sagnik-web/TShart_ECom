@@ -1,0 +1,101 @@
+.admin_mdress_details > div{
+    margin: 30px;
+}
+
+.admin_mdress_details_img {
+    display: flex;
+    justify-content: space-between;
+
+}
+.admin_mdress_details_img >div{}
+
+.admin_mdress_details_img > div > p{
+    margin-bottom: 15px;
+}
+
+.admin_mdress_details_img > div > div {
+    /* margin-right: 40px; */
+
+    display: flex;
+    align-items: center;
+
+}
+
+.admin_mdress_details_img > div > div > p{
+    margin-right: 10px;
+
+}
+
+.admin_mdress_details_info{
+    margin-top: 20px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.admin_mdress_details_info > div{
+    margin: auto;
+    margin-bottom: 15px;
+    max-width: 1400px;
+    
+}
+
+.admin_mdress_details >div >hr{
+    margin-top: 25px;
+    /* width: 80%; */
+    /* text-align: center; */
+}
+
+.admin_mdress_details >div >h2{
+text-align: center;
+margin-top: 20px;
+}
+
+.admin_mdress_details_info >div > p{
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.admin_mdress_details_info >div > p >span > input{
+
+    padding: 5px 12px;
+}
+
+.admin_mdress_details_info >div > p >span {
+
+    margin-right: 7px;
+}
+
+.admin_mdress_details_info >div > p >span > p{
+
+    display: inline-block;
+    margin-right: 14px;
+
+}
+
+.admin_mdress_details_info >div > p >span > p > label{
+    margin-left: 5px;
+
+}
+
+.desc
+{
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+
+.admin_mdress_details_submit_btn{
+    text-align: center;
+}
+
+.admin_mdress_details_submit_btn > h3{
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 7px;
+    background-color: rgb(117, 0, 0);
+    color: #fff;
+    margin-top: 25px;
+    cursor: pointer;
+}
+

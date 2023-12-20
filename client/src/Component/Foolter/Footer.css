@@ -1,0 +1,48 @@
+.footer{
+    background-color: var(--primary-color);
+    padding: 4rem;
+    padding-bottom: 1.5rem;
+    color: var(--color-white);
+}
+
+.footer >div{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer >div >div>div>img{
+    width: 90px;
+    height: 90px;
+}
+
+.footer_col p{
+    margin-top: 10px;
+    color: #ffffff8c;
+    cursor: pointer;
+}
+
+.footer_col p:hover{
+    color: var(--color-white);
+}
+
+.footer_col_fst p{
+    margin-top: 10px;
+}
+
+.footer_col_fst > p> span{
+    margin-right: 10px;
+}
+
+.footer hr{
+    border-color: #ffffff54;
+
+    margin: 2rem;
+}
+
+
+
+
+
+

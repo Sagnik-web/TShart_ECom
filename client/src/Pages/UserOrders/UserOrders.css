@@ -1,0 +1,158 @@
+
+.order_cart{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.order_cart_tab{
+    display: flex;
+    margin: 20px 0;
+}
+.order_cart_tab >p{
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #750000;
+    color: #fff;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.order_cart > h3{
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+.order_cart_items > div{
+    border: 2px solid black;
+    margin: 20px 30px;
+    /* margin-left: 0; */
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.order_cart_items > div >div >img{
+    width: 280px;
+}
+
+.order_cart_items_card_dropdown{
+    display: flex;
+}
+
+.order_cart_items_card_btn > h5{
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    background-color: #dda900;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.order_cart_items_card_name{
+    flex: 1;
+}
+
+.order_cart_items_card_name > h4, .order_cart_items_card_name > p, .order_cart_items_card_dropdown{
+    margin-top: 2.5px;
+}
+
+
+
+.order_cart_items_card_dropdown > div{
+    margin-right: 10px;
+}
+
+
+.order_cart_items_card_dropdown >div >span{
+    margin-right: 7px;
+}
+
+.order_cart_items_card_price{
+    margin-left: 7px;
+    color: #6b6b6b;
+}
+
+
+
+.order_cart_items_price {
+    border: 2px solid rgb(90, 90, 90);
+    margin-top: 20px;
+}
+
+.order_cart_items_price > h3{
+    padding: 15px;
+    background-color: #dda900;
+}
+
+.order_cart_items_price > div{
+    margin: 10px 15px;
+}
+
+/* .order_cart_items_price > div > p{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order_cart_items_price > div > h3{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1.5px solid black;
+    margin-top: 10px;
+    padding-top: 7px;
+
+} */
+
+
+
+.order_shipping{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.order_shipping > div {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+}
+
+.order_shipping > div >span{
+    margin-left: 5px;
+}
+
+.dot{
+    border-left: 3px dotted #6b6b6b;
+    height: 50px;
+    margin: 3px;
+    margin-left: 10px;
+}
+
+.green_dot{
+    border-left: 3px solid #1d9100;
+}
+
+
+.order_cancel{
+    margin-top:15px;
+}
+
+.order_cancel > hr{
+    width: 95%;
+}
+
+.order_cancel >p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #750000;
+    font-weight: 700;
+    cursor: pointer;
+    /* color: #1d9100; */
+}
+
+

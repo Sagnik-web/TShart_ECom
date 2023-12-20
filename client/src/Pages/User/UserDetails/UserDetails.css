@@ -1,0 +1,57 @@
+.user_profile{
+    max-width: 1200px;
+    margin: auto;
+}
+.user_profile >h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.user_profile >div >p{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.user_profile >div{
+
+    margin-left:10px ;margin-top: 7px;
+}
+
+.user_profile_details {
+    max-width: 800px;
+}
+
+
+
+.user_profile_details table{
+    width: 100%;
+}
+.user_profile_details td{
+    width: 50%;
+}
+.user_profile_details input{
+    padding: 7px 14px;
+    margin: 7px;
+}
+
+.user_profile_details_edit > p{
+    padding: 8px 20px;
+    background-color: aquamarine;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user_profile_details_btn p{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user_profile_details_btn{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
